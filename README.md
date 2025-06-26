@@ -44,6 +44,12 @@ This project involved working on a legacy Hospital Management System built using
 
 ## Before & After (Screenshots)
 
+- Login Page
+  **Before**
+  ![Before UI - Login Page](screenshots/old/login_page.png)
+  **After**
+  ![After UI - Login Page](screenshots/new/login_page.png)
+
 - Case Masters
   **Before**
   ![Before UI - Case Masters](screenshots/old/case_masters.png)
@@ -52,9 +58,9 @@ This project involved working on a legacy Hospital Management System built using
 
 - KYC Patient Info
   **Before**
-  ![Before UI - Case Masters](screenshots/old/kyc_patient_info.png)
+  ![Before UI - KYC Patient Info](screenshots/old/kyc_patient_info.png)
   **After**
-  ![After UI - Case Masters](screenshots/new/kyc_patient_info.png)
+  ![After UI - KYC Patient Info](screenshots/new/kyc_patient_info.png)
 
 ---
 
@@ -100,9 +106,9 @@ This project represents my ability to:
 
 ## Project Status
 
-- UI Refactoring Completed for 2 Core Pages
-- Open to extending to more screens if needed for stronger portfolio depth
-- Full backend audit not within current scope
+UI Refactoring Completed for 2 Core Pages  
+Open to extending to more screens if needed for stronger portfolio depth  
+Full backend audit not within current scope
 
 ---
 
