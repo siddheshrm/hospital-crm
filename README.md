@@ -4,7 +4,7 @@
 
 This project involved working on a legacy Hospital Management System built using Laravel and Blade templates. The codebase was unstructured, inconsistent, and lacked version control, formatting, and logical clarity. My goal was to bring **UI consistency**, **code readability**, and **functional clarity** to the project, all while reverse-engineering undocumented logic and restoring functionality in several places.
 
-> This is a **UI-centric refactor case study**. Although not responsible for the full backend logic, I actively traced and restored several broken or commented controller segments as needed.
+> While this is primarily a **UI-centric refactor case study**, the work extended beyond surface-level improvements. I actively navigated and reverse-engineered backend logic, restored broken controller segments, and made necessary backend changes to support UI consistency and data accuracy throughout the system.
 
 ---
 
@@ -44,23 +44,29 @@ This project involved working on a legacy Hospital Management System built using
 
 ## Before & After (Screenshots)
 
-- Login Page
+- **Login Page** - Aligned input labels and improved error message visibility for better UX.
   **Before**
   ![Before UI - Login Page](screenshots/old/login_page.png)
   **After**
   ![After UI - Login Page](screenshots/new/login_page.png)
 
-- Case Masters
+- **Case Masters** - Improved layout, field grouping and buttons for patient case history with better spacing, label clarity, and visual alignment.
   **Before**
   ![Before UI - Case Masters](screenshots/old/case_masters.png)
   **After**
   ![After UI - Case Masters](screenshots/new/case_masters.png)
 
-- KYC Patient Info
+- **KYC Patient Info** - Refactored Patient Info form UI for better field alignment, grouping, and cleaner layout.
   **Before**
-  ![Before UI - KYC Patient Info](screenshots/old/kyc_patient_info.png)
+  ![Before UI - Case Masters](screenshots/old/kyc_patient_info.png)
   **After**
   ![After UI - KYC Patient Info](screenshots/new/kyc_patient_info.png)
+
+- **Patient Case History PDF** - Address now includes full details (e.g., "MG Road, Ward No. 3, South Block, Badlapur, Thane").
+  **Before**
+  ![Before Patient Case History PDF](screenshots/old/patient_case_history_pdf.png)
+  **After**
+  ![After Patient Case History PDF](screenshots/old/patient_case_history_pdf.png)
 
 ---
 
@@ -100,15 +106,15 @@ This project represents my ability to:
 ## Extra Materials
 
 - `screenshots/`: Before & After views of fixed pages
-- `README.md`: This file, to explain my workflow and thinking
 
 ---
 
 ## Project Status
 
-UI Refactoring Completed for 2 Core Pages  
-Open to extending to more screens if needed for stronger portfolio depth  
-Full backend audit not within current scope
+- UI Refactoring Completed for 2 Core Pages
+- PDF output for patient case history corrected (address - now includes area, city, district)
+- Open to extending to more screens if needed for stronger portfolio depth
+- Full backend audit not within current scope
 
 ---
 
